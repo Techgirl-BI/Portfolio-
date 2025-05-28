@@ -14,12 +14,22 @@ const Contact = () => {
             <span className="font-bold">remote</span> full stack web developer.
             Feel free to reach out.
           </p>
-          <div className="mb-2 text-blue-500 hover:underline cursor-pointer">
-            LinkedIn
-          </div>
-          <div className="mb-2 text-blue-500 hover:underline cursor-pointer">
-            GitHub
-          </div>
+          <a 
+  href="https://www.linkedin.com/in/racheal-onimisi/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="block mb-2 text-blue-500 hover:underline cursor-pointer"
+>
+  LinkedIn
+</a>
+<a 
+  href="https://github.com/Techgirl-BI" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="block mb-2 text-blue-500 hover:underline cursor-pointer"
+>
+  GitHub
+</a>
         </div>
         <div className="bg-gray-100 p-8 rounded-md bg-amber-200">
           <form className="flex flex-col gap-4">
